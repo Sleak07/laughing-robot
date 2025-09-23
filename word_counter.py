@@ -3,7 +3,7 @@ class CleanInput():
     def __init__(self) -> None:
         pass
 
-    def take_input(self):
+    def take_input_string(self):
         pass
 
     def clean_user(self):
