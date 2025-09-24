@@ -1,0 +1,3 @@
+cow             1
+eats            1
+grass           1

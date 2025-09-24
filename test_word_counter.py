@@ -1,3 +1,4 @@
+#TEST: Play all the features before getting to main 
 import pytest
 
 from word_counter import CleanInput
