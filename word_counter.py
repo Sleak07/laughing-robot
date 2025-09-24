@@ -1,10 +1,11 @@
-#TODO:  Accept the user input and clean the input
-class CleanInput():
-    def __init__(self) -> None:
-        pass
+# TODO:  Accept the user input and clean the input
+class CleanInput:
+    def __init__(self, user) -> None:
+        self.user = user
 
     def take_input_string(self):
-        pass
+        self.user = input("Enter a sentence of your choice: ")
+        return self.user
 
     def clean_user(self):
-        pass
+        return self.user.lower().strip()
